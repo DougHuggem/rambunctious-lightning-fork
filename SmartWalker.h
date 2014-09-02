@@ -1,10 +1,9 @@
-#ifndef
-SMARTWALKER_H_
-#define
+#ifndef SMARTWALKER_H_
+#define SMARTWALKER_H_
 class SmartWalker
 {
 	public:
-		SmartWalker(){};
+		SmartWalker();
 
 		int	runNav();
 		int	runHR();
